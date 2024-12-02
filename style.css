@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rajdhani", sans-serif; 
+    
+    }
+    #menu li{
+        font-family: "Rajdhani", sans-serif; 
+        color: white;
+        padding-right: 20px; 
+    }
+    #menuicon{
+        display: none;
+    }
+    @media (max-width:768px) {
+        #menuicon{
+            display: block;
+            position: absolute;
+            right: 2%;
+        }
+        #menu li{
+            display: none;
+        }
+    }
+    
