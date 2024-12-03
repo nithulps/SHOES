@@ -32,4 +32,29 @@
             display: none;
         }
     }
+    /*  Landing page */
+    .btn{
+        background-color: black;
+        color: white;
+    }
+    .btn:hover{
+        background-color: black;
+
+        color: rgb(0, 241, 12);
+    }
+    
+    .Hometext{
+    color: black;
+    font-size: 50px;
+}
+@media (min-width:768px) {
+    #home{
+        height:80vh;
+    }
+    
+}
+
+/*  */
+
+    /* screen two */
     
